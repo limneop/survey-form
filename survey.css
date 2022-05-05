@@ -1,4 +1,9 @@
+@font-face {
+  font-family: 'Elite';
+  src: url(../survey-form/SpecialElite-Regular.ttf);
+}
 body{
     margin: 0;
     background-image: url();
+    font-family: 'Elite';
   }
