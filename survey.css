@@ -12,13 +12,14 @@ body{
   * {
     box-sizing: border-box;
   }
-  
+  .row {
+    display: flex;
+  }
   /* Create three equal columns that floats next to each other */
   .column {
     float: left;
     width: 33.33%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
   }
   
   /* Clear floats after the columns */
@@ -99,4 +100,14 @@ img {
 .text2 {
   font-size: 20px;
   padding-left: 20px;
+}
+.grid {
+  display: table;
+
+}
+.row1 {
+  display: table-row
+}
+.cell {
+  display: table-cell;
 }
